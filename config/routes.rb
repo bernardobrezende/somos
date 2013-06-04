@@ -1,6 +1,7 @@
 Somos::Application.routes.draw do
 
   resources :missions
+  resources :categories
 
   resources :authorizations, only: [:destroy]
 
